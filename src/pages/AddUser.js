@@ -25,7 +25,7 @@ function AddUser({ onAddUser }) {
       email,
       phone,
       website,
-      company: { name: company || "Local User" },
+      company: { name: company || "None" },
       address: { street, city },
     };
 

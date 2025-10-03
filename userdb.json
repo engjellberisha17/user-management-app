@@ -29,59 +29,17 @@
       }
     },
     {
-      "id": "4538",
+      "id": "d506",
       "name": "Engjell Berisha",
-      "email": "egiberisha9@gmail.com",
+      "email": "engjellberisha8@gmail.com",
       "phone": "046175544",
-      "website": "test.com",
+      "website": "x.com",
       "company": {
-        "name": "Starlabs"
+        "name": "LinkPlus IT"
       },
       "address": {
-        "street": "RR.VAROSHIT",
-        "city": "Prishtine"
-      }
-    },
-    {
-      "id": "c5b9",
-      "name": "volodymyr zelensky",
-      "email": "zelensky@live.com",
-      "phone": "044613212",
-      "website": "ukraine.com",
-      "company": {
-        "name": "ukraine"
-      },
-      "address": {
-        "street": "Rruga Gursel dhe Bajram Sylejmani",
+        "street": "Nikadin",
         "city": "Ferizaj"
-      }
-    },
-    {
-      "id": "2987",
-      "name": "egi",
-      "email": "egi@gmail.com",
-      "phone": "12313123",
-      "website": "egi.com",
-      "company": {
-        "name": "egico"
-      },
-      "address": {
-        "street": "rr.varoshit",
-        "city": "ferizaj"
-      }
-    },
-    {
-      "id": "cbef",
-      "name": "Donald Trump",
-      "email": "donald@trump.com",
-      "phone": "45454747",
-      "website": "america.com",
-      "company": {
-        "name": "usaco"
-      },
-      "address": {
-        "street": "white house str.",
-        "city": "washington dc"
       }
     }
   ]

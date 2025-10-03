@@ -209,6 +209,11 @@ button[type="submit"]:hover {
   .card-grid {
     grid-template-columns: repeat(2, 1fr); 
   }
+  .delete-btn{
+    display: block;
+    background-color: red;
+    color: white;
+  }
 }
 
 @media (max-width: 600px) {
@@ -217,5 +222,10 @@ button[type="submit"]:hover {
   }
   .user-card {
     max-width: 70%; 
+  }
+  .delete-btn{
+    display: block;
+    background-color: red;
+    color: white;
   }
 }

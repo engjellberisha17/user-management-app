@@ -1,13 +1,102 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Leanne Graham",
-      "email": "Sincere@april.biz",
-      "phone": "1-770-736-8031",
-      "company": { "name": "Romaguera-Crona" },
-      "website": "hildegard.org",
-      "address": { "street": "Kulas Light", "city": "Gwenborough" }
+      "id": "8531",
+      "name": "Engjell Berisha",
+      "email": "egiberisha9@gmail.com",
+      "phone": "046175544",
+      "website": "comapny.con",
+      "company": {
+        "name": "company"
+      },
+      "address": {
+        "street": "Nekodim, Rr.Gursel dhe Bajram Sylejmani, Berisha Petrol",
+        "city": "Ferizaj"
+      }
+    },
+    {
+      "id": "b9b7",
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "phone": "046175544",
+      "website": "admin.com",
+      "company": {
+        "name": "adminco"
+      },
+      "address": {
+        "street": "Izet Berisha",
+        "city": "Ferizaj"
+      }
+    },
+    {
+      "id": "2760",
+      "name": "Test",
+      "email": "test@gmail.com",
+      "phone": "0312315109",
+      "website": "website.com",
+      "company": {
+        "name": "company"
+      },
+      "address": {
+        "street": "rr.varoshit",
+        "city": "Ferizaj"
+      }
+    },
+    {
+      "id": "4538",
+      "name": "Engjell Berisha",
+      "email": "egiberisha9@gmail.com",
+      "phone": "046175544",
+      "website": "test.com",
+      "company": {
+        "name": "Starlabs"
+      },
+      "address": {
+        "street": "RR.VAROSHIT",
+        "city": "Prishtine"
+      }
+    },
+    {
+      "id": "c5b9",
+      "name": "volodymyr zelensky",
+      "email": "zelensky@live.com",
+      "phone": "044613212",
+      "website": "ukraine.com",
+      "company": {
+        "name": "ukraine"
+      },
+      "address": {
+        "street": "Rruga Gursel dhe Bajram Sylejmani",
+        "city": "Ferizaj"
+      }
+    },
+    {
+      "id": "2987",
+      "name": "egi",
+      "email": "egi@gmail.com",
+      "phone": "12313123",
+      "website": "egi.com",
+      "company": {
+        "name": "egico"
+      },
+      "address": {
+        "street": "rr.varoshit",
+        "city": "ferizaj"
+      }
+    },
+    {
+      "id": "cbef",
+      "name": "Donald Trump",
+      "email": "donald@trump.com",
+      "phone": "45454747",
+      "website": "america.com",
+      "company": {
+        "name": "usaco"
+      },
+      "address": {
+        "street": "white house str.",
+        "city": "washington dc"
+      }
     }
   ]
 }

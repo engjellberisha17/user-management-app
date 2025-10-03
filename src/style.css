@@ -74,7 +74,7 @@
 .card-grid {
   max-width: 1500px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   justify-items: center;
   justify-self: center;
@@ -82,14 +82,15 @@
 }
 
 .user-card {
-  display: block;              
+  position: relative;
+  display: block;
   width: 100%;
   max-width: 260px;
   background-color: #f9f9f9;
   border: 1px solid lightgray;
   border-radius: 12px;
   padding: 20px;
-  text-decoration: none;       
+  text-decoration: none;
   color: black;
   box-shadow: 0 5px 9px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
@@ -104,6 +105,34 @@
   color: white;
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.delete-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: white;
+  color: red;
+  border: none;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  display: none;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+  padding: 0;
+  transition: 0.5s ease;
+}
+
+.delete-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+.user-card:hover .delete-btn {
+  display: block;
 }
 
 

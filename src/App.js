@@ -17,7 +17,7 @@ function App() {
         const sorted = [...localUsers.reverse(), ...externalUsers];
         setUsers(sorted);
       })
-      .catch(err => console.error("Error fetching users:", err));
+      .catch(err => console.error(err));
   }, []);
 
   const handleAddUser = (newUser) => {
@@ -26,14 +26,21 @@ function App() {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newUser),
-    }).catch(err => console.error("Error saving user:", err));
+    }).catch(err => console.error(err));
+  };
+
+  const handleDeleteUser = (id) => {
+    setUsers(users.filter(u => u.id !== id));
+    fetch(`http://localhost:5000/users/${id}`, {
+      method: "DELETE",
+    }).catch(err => console.error(err));
   };
 
   return (
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<UserList users={users} />} />
+        <Route path="/" element={<UserList users={users} onDeleteUser={handleDeleteUser} />} />
         <Route path="/users/:id" element={<UserDetails users={users} />} />
         <Route path="/add" element={<AddUser onAddUser={handleAddUser} />} />
       </Routes>

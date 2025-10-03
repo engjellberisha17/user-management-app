@@ -29,20 +29,6 @@
       }
     },
     {
-      "id": "2760",
-      "name": "Test",
-      "email": "test@gmail.com",
-      "phone": "0312315109",
-      "website": "website.com",
-      "company": {
-        "name": "company"
-      },
-      "address": {
-        "street": "rr.varoshit",
-        "city": "Ferizaj"
-      }
-    },
-    {
       "id": "4538",
       "name": "Engjell Berisha",
       "email": "egiberisha9@gmail.com",
